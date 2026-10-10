@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ember Bot | Referral Competition</title>
+    <meta
+      name="description"
+      content="A black and white themed landing page for a referral competition bot."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#top" class="logo-wrap" aria-label="Ember Bot home">
+          <span class="logo-mark">E</span>
+          <span class="logo-text">Ember Bot</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#process">How it works</a>
+          <a href="#leaderboard">Leaderboard</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-dark">Get started</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Smart referral system</p>
+            <h1>Turn referrals into measurable growth.</h1>
+            <p class="subtitle">
+              A modern competition bot built for Telegram referrals, secure
+              verification, and live ranking. Everything is designed to keep the
+              campaign clear, fair, and fast.
+            </p>
+
+            <div class="cta-row">
+              <a href="#features" class="btn btn-dark">Explore features</a>
+              <a href="#leaderboard" class="btn btn-light">View leaderboard</a>
+            </div>
+
+            <ul class="trust-list" aria-label="Highlights">
+              <li>Telegram integrations</li>
+              <li>Secure validation</li>
+              <li>Live leaderboard</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Competition stats and leaderboard preview">
+            <div class="card-top">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <div class="stats-panel">
+              <div class="mini-stat">
+                <span class="label">Participants</span>
+                <strong>12,480</strong>
+              </div>
+              <div class="mini-stat">
+                <span class="label">Verified referrals</span>
+                <strong>4,312</strong>
+              </div>
+              <div class="mini-stat">
+                <span class="label">Prize pool</span>
+                <strong>₹25,000</strong>
+              </div>
+            </div>
+
+            <div class="leaderboard-preview">
+              <div class="rank-row">
+                <span>#1</span>
+                <div class="name-block">
+                  <strong>Alex</strong>
+                  <small>42 referrals</small>
+                </div>
+              </div>
+
+              <div class="rank-row">
+                <span>#2</span>
+                <div class="name-block">
+                  <strong>Rhea</strong>
+                  <small>39 referrals</small>
+                </div>
+              </div>
+
+              <div class="rank-row">
+                <span>#3</span>
+                <div class="name-block">
+                  <strong>Leo</strong>
+                  <small>35 referrals</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section" id="features">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Core features</p>
+            <h2>Everything your referral campaign needs.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon">01</span>
+              <h3>Referral tracking</h3>
+              <p>
+                Unique invite links, anti-duplicate checks, and tracked attribution
+                for every participant.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-icon">02</span>
+              <h3>Verification flow</h3>
+              <p>
+                Submit proof, validate it securely, and automate approval or
+                rejection based on campaign rules.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-icon">03</span>
+              <h3>Live leaderboard</h3>
+              <p>
+                Monitor rankings with referral counts, tie-break logic, and public
+                progress updates.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-icon">04</span>
+              <h3>Admin controls</h3>
+              <p>
+                Manage the contest, review entries, approve winners, and export
+                campaign reports from one place.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-icon">05</span>
+              <h3>Health checks</h3>
+              <p>
+                Maintain uptime and service reliability with built-in monitoring and
+                status endpoints.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-icon">06</span>
+              <h3>Secure webhooks</h3>
+              <p>
+                Receive and validate external events to keep referral data accurate
+                and protected.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section" id="process">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Workflow</p>
+            <h2>How the system works.</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-number">1</div>
+              <div class="timeline-content">
+                <h3>Register</h3>
+                <p>User joins and receives a unique Telegram referral link.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-number">2</div>
+              <div class="timeline-content">
+                <h3>Share</h3>
+                <p>Participants invite friends and increase their referral counts.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-number">3</div>
+              <div class="timeline-content">
+                <h3>Verify</h3>
+                <p>Evidence is uploaded and reviewed before credit is approved.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-number">4</div>
+              <div class="timeline-content">
+                <h3>Win</h3>
+                <p>Top performers rise on the leaderboard and earn the prize.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="leaderboard section" id="leaderboard">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Live standings</p>
+            <h2>Top referral performers.</h2>
+          </div>
+
+          <div class="leaderboard-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Participant</th>
+                  <th>Referrals</th>
+                  <th>Progress</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01</td>
+                  <td>Alex Carter</td>
+                  <td>42</td>
+                  <td><span class="progress"><span style="width: 78%"></span></span></td>
+                </tr>
+                <tr>
+                  <td>02</td>
+                  <td>Rhea Singh</td>
+                  <td>39</td>
+                  <td><span class="progress"><span style="width: 70%"></span></span></td>
+                </tr>
+                <tr>
+                  <td>03</td>
+                  <td>Leo Martin</td>
+                  <td>35</td>
+                  <td><span class="progress"><span style="width: 64%"></span></span></td>
+                </tr>
+                <tr>
+                  <td>04</td>
+                  <td>Sarah Jones</td>
+                  <td>31</td>
+                  <td><span class="progress"><span style="width: 58%"></span></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section" id="faq">
+        <div class="container small">
+          <div class="section-heading">
+            <p class="eyebrow">Common questions</p>
+            <h2>Everything you need to know.</h2>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item active">
+              <button class="faq-question" type="button">
+                What is this referral bot?
+                <span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  It is a referral competition system designed to track user
+                  invitations, validate submissions, and manage public rankings.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" type="button">
+                Can it work with Telegram?
+                <span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes. The platform is built to integrate with Telegram commands,
+                  chats, and automated user flows.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" type="button">
+                Is the verification process secure?
+                <span>+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Security checks, review rules, and signed webhook handling help
+                  maintain the integrity of every referral.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section" id="contact">
+        <div class="container cta-box">
+          <div>
+            <h2>Launch your referral campaign today.</h2>
+          </div>
+          <a href="mailto:hello@emberbot.com" class="btn btn-dark">Contact us</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Ember Bot. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#process">Process</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
